@@ -1,0 +1,14 @@
+{
+  "name": "snakegame",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "serve": "serve -p 3000 ."
+  },
+  "devDependencies": {
+    "vitest": "^2.0.0",
+    "@playwright/test": "^1.40.0",
+    "serve": "^14.0.0"
+  }
+}
